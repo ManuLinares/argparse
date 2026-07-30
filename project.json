@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "sources": [ "argparse.c3" ],
+  "targets": {
+    "run": {
+      "type": "executable",
+      "sources": [ "test" ]
+    },
+    "test": {
+      "type": "test",
+      "test-sources": [ "test" ]
+    }
+  }
+}
